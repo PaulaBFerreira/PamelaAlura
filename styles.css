@@ -1,0 +1,58 @@
+body {
+    color:rgb(255, 157, 198);
+    background:rgb(0, 0, 0);
+    font-size: 19px;
+    font-family: "SUSE", system-ui;
+    margin-bottom: 100px;
+}
+
+header {
+
+   border-bottom: solid 2px pink;
+    padding: 20px;
+    font-size: 30;
+    color:aliceblue 30px
+}
+
+.chamada { 
+background: rgb(0, 0, 0);
+padding-bottom: 80px;
+padding-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+    h1 {
+        font-size: 30px;
+    }
+    p {
+    font-size: 20px;
+    }
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+   
+.categoria {
+    padding-left:  20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+ 
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid pink;
+}
+
+.categoria h2 {
+color: antiquewhite;
+}
